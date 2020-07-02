@@ -1,0 +1,286 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  }
+/* bubbles */
+
+#bubbles { height: 100% ;
+    padding: 100px 0}
+  
+.bubble {
+      width: 60px;
+      height: 60px;
+      background:rgb(146, 253, 227) ;
+      border-radius: 200px;
+      -moz-border-radius: 200px;
+      -webkit-border-radius: 200px;
+      position: absolute;
+  }
+  
+  .x1 {
+      -webkit-transform: scale(0.9);
+      -moz-transform: scale(0.9);
+      transform: scale(0.9);
+      opacity: 0.2;
+      -webkit-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -moz-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -o-animation: moveclouds 15s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .x2 {
+      left: 200px;
+    
+      -webkit-transform: scale(0.6);
+      -moz-transform: scale(0.6);
+      transform: scale(0.6);
+      opacity: 0.5;
+      -webkit-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+      -moz-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+      -o-animation: moveclouds 25s linear infinite, sideWays 5s ease-in-out infinite alternate;
+  }
+  .x3 {
+      left: 350px;
+   
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      transform: scale(0.8);
+      opacity: 0.3;
+      -webkit-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -moz-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+      -o-animation: moveclouds 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  }
+  .x4 {
+      left: 470px;
+    
+      -webkit-transform: scale(0.75);
+      -moz-transform: scale(0.75);
+      transform: scale(0.75);
+      opacity: 0.35;
+      -webkit-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -moz-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -o-animation: moveclouds 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  }
+  .x5 {
+      left: 150px;
+      
+      -webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);
+      transform: scale(0.8);
+      opacity: 0.3; 
+      -webkit-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+      -moz-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+      -o-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes moveclouds { 
+      0% { 
+          top: 500px;
+      }
+      100% { 
+          top: -500px;
+      }
+  }
+  
+  @-webkit-keyframes sideWays { 
+      0% { 
+          margin-left:0px;
+      }
+      100% { 
+          margin-left:50px;
+      }
+  }
+  
+  @-moz-keyframes moveclouds {     
+      0% { 
+          top: 500px;
+      }
+  
+      100% { 
+          top: -500px;
+      }
+  }
+  
+  @-moz-keyframes sideWays {
+      0% {
+          margin-left:0px;
+      }
+      100% {
+          margin-left:50px;
+      }
+  }
+  @-o-keyframes moveclouds {
+      0% { 
+          top: 500px;
+      }
+      100% { 
+          top: -500px;
+      }
+  }
+  
+  @-o-keyframes sideWays {
+      0% {
+          margin-left:0px;
+      }
+      100% {
+          margin-left:50px;
+      }
+  }
+  
+
+
+
+.header{
+    font-size:3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornsilk;
+    text-align: center;
+    text-shadow: darkgrey;
+      
+}
+
+.rotate180{
+
+  
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+
+}
+
+
+.card{
+    margin: auto;
+ margin-top: 20px;
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:15px;
+
+}
+
+.card-img-top{
+  padding-top: 10px;
+    border-radius: 50%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.btn{
+  background-color: rgb(179, 233, 179);
+  font-size: 20px;
+  /* color: rgb(85, 80, 80); */
+  color: black;
+  
+margin-top: 40px;
+font-weight:800;
+margin-bottom: 15px;
+}
+
+.btn:hover{
+  background-color:rgb(162, 236, 162);
+  font-size: 20px;
+ 
+  color:rgb(69, 117, 69);
+  
+}
+
+
+
+.form-signin{
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-copyright{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(195, 236, 236); 
+   background-color:black ;
+
+    width: 100%;
+ text-align: center;
+ padding-bottom: 10px;
+   
+ 
+   
+}
+
+
+  .waves {
+   
+ 
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 400px;
+  }
+  /* Animation */
+  .parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+  .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+    .waves {
+      height: 60px;
+      min-height: 60px;
+    }
+    .content {
+      height: 30vh;
+    }
+  }
+  
+  /*Other*/
+  
+  .unique-color-dark {
+    background-color:#b7f9e1 !important;
+  }
+  
+  .bg-light {
+    background-color: #b7f9e1 !important;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .custom-color {
+    background-color: #b7f9e1 !important
+  }
