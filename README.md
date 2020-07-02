@@ -19,5 +19,6 @@ The server side is made with nodejs(A javascript runtime).Npm packages have been
  *Npm is a software manager and installer for nodeJS*
 * HTML,CSS and bootsrap have been used to make the frontend.*Bootstrap is a css framework used to make websites*
 
-## Test-- Clone or download the project in your pc or laptop.Direct over to the project using command line interface.Run nodemon app.js/node app.js .
+## Test--
+Clone or download the project in your pc or laptop.Direct over to the project using command line interface.Run nodemon app.js/node app.js .
 
