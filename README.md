@@ -7,6 +7,12 @@ This is a web-app which keeps all your links to your social media handles or any
 This a open task given by dsc club of our institution.
 
 ## Screenshot--
+[
+![mine](https://user-images.githubusercontent.com/54092197/86387244-859ac480-bcb0-11ea-9e80-42d38d28b265.jpg)
+](url)
+
+![mail](https://user-images.githubusercontent.com/54092197/86387262-8e8b9600-bcb0-11ea-8c36-29d00a056724.jpg)
+
 
 ## Features--
 This project is a complete web-app with both client interface and server side connected to the mailchimp database(authorised).You can signup in the site and your data will be recorded in the database.
