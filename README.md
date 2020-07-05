@@ -4,7 +4,7 @@
 This is a web-app which keeps all your links to your social media handles or any projects that you feel like sharing with the world. It is useful in places like instagram and other social media platforms where user is allowed to put only one link in bio.So the only link you will ever need to put is a Link-net.
 
 ## Idea--
-This a open task given by dsc club of our institution.
+This a open task given by Data Science Community of our institution.
 
 ## Screenshot--
 [
